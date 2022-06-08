@@ -1,406 +1,319 @@
 
 ***
 
-# <projectName>
+<details open><summary><b lang="en">Click/tap here to expand/collapse the logo for this subproject</b></summary>
 
-![{Project icon} This image failed to load. It may be due to the file not being reached, or a general error. Reload the page to fix a possible general error.](Image.svg)
+![/W_Modern1_HighCompression](/W_Modern1_HighCompression.png)
 
-# By:
+</details>
 
-<!-- ![{Developer name} This image failed to load. It may be due to the file not being reached, or a general error. Reload the page to fix a possible general error.](Image2.svg) !-->
+<!--
+| ![SadMac_Tiny64px_HighCompression.png](SadMac_Tiny64px_HighCompression.png) Note: Default RSS support was dropped in WOAHS X 10.8 |
+|-----------------------------------------------------------------------------------------------|
+!-->
 
-## [Seanpm2001](https://github.com/seanpm2001/), [<developerName>](https://github.com/<developerName>/) Et; Al.
+| [Previous (10.11)](https://github.com/seanpm2001/WOAHS-X_10.11/) | [Current (10.12)](https://github.com/seanpm2001/WacOS_10.12) | [Next (10.13)](https://github.com/seanpm2001/WacOS_10.13/) |
+|---|---|---|
+| ![/W_Modern1_HighCompression](/W_Modern1_HighCompression.png) | ![/W_Plain_HighCompression.png](/W_Plain_HighCompression.png) | ![/W_Plain_HighCompression.png](/W_Plain_HighCompression.png) |
+| First boot | First boot | First boot |
+| ![/W_WOAH_HighCompression.png](/W_WOAH_HighCompression.png) | ![/W_Modern1_HighCompression](/W_Modern1_HighCompression.png) | ![/W_Modern1_HighCompression](/W_Modern1_HighCompression.png) |
+| Default boot | Default boot | Default boot |
+| WOAHS X 10.11 (El Capitan) [Local](/WOAHS-X/10.11/) | WacOS 10.12 (Sierra) [Local](/WacOS_X/10.12/) | WacOS 10.13 (High Sierra) [Local](/WacOS_X/10.13/) |
 
+# WacOS 10.12
 
-### Top
+WacOS 10.12 is an open source recreation of MacOS 10.12. It is part of the WacOS operating system project. 
 
-# `README.md`
+## Language
+
+The system is currently written in C, but will also support several other languages, including x86 Assembly, Objective-C, Objective-C++, Swift, Metal, and AppleScript
+
+### Programming language support
+
+Objective-C is bumped up to version 2.0 (As of Wac OS X 10.6)
+
+Python version 2.5 is included (As of Wac OS X 10.5)
+
+Ruby 1.8.6 is included (As of Wac OS X 10.5)
+
+Swift is now supported (Starting with WOAHS X 10.9)
+
+Metal is now supported (Starting with WacOS 10.12)
+
+Objective-C++ is now supported (as of WacOS 10.12)
+
+## Features
+
+Features to replicate
+
+Source: [MacOS 10.12 - Wikipedia (en)](https://en.wikipedia.org/w/index.php?title=MacOS_Sierra&oldid=1091862536)
+
+The default desktop picture is an image of Lone Pine Peak.
+
+### System features
+
+#### Siri
+
+A demonstration of Siri on macOS Sierra Beta
+
+The user can access the Siri intelligent assistant via the Dock, the menu bar or a keyboard shortcut and results are shown in a window in the upper-right corner. Siri can send messages, search the web, find files and adjust settings. Results can be dropped into other applications or pinned to Notification Center. For instance, pictures from search results can be dragged into a document.
+
+#### iCloud Drive and Optimized Storage
+
+iCloud Drive can upload the user's documents and desktop directories and sync them to other devices. The System Information application has a new section that gives the user detailed information about space usage per application or file and provides tools and suggestions for freeing up space. For instance, the user can let the system upload old files to iCloud Drive and remove their local copies, keeping them available on-demand in Finder. It can also remove old files from trash automatically. iTunes can delete watched, purchased films and TV programs from its library.
+
+#### Auto Unlock and Universal Clipboard
+
+Building upon Continuity, an "umbrella term [[for]] features that facilitate the communication between [[Apple devices]]" using Bluetooth and Wi-Fi, Sierra adds two features. With Auto Unlock, the user can unlock their user account by holding a paired Apple Watch close to the device. Time of flight is used to prevent relay attacks. Auto Unlock requires a Mac that was introduced in 2013 or later. With Universal Clipboard, the user can share the clipboard for cut, copy and paste between macOS Sierra and iOS 10 devices, including text and rich content, such as pictures or videos.
+
+#### Tabs and Picture-in-Picture
+
+Applications that support multiple windows can support multiple tabs within a single window, allowing the user to keep windows organized similarly to Safari. With Picture-in-Picture, videos can be played in a window that follows the user across the system.
+
+#### Apple File System
+
+Apple released a preview of a new file system in Sierra, called Apple File System (APFS), to overcome the limitations of HFS Plus. It is intended for solid-state drives and flash memory and will adopt several features found in modern file systems, such as snapshots and cloning, as well as native support for features that Apple already provides in HFS Plus through supplementary software, such as file-system encryption and TRIM support. The file system was released in macOS High Sierra.
+
+#### Night Shift
+
+Night Shift is new in macOS 10.12.4, with the same functionality as its iOS counterpart. Night Shift reduces blue light at night to aid sleep. This can be scheduled in the System Preferences app (in the Displays menu) and can be toggled on or off in the Notification Center or using Siri.
+
+Since this feature relies on the Metal framework, Night Shift is not available on all systems that support macOS Sierra.
+
+### Application features
+
+#### Photos
+
+Apple says it has improved the face recognition of the Photos application, adding object and scene recognition. It groups similar pictures together using faces, locations and object recognition to create "memories". Memories contain picture slideshows with transitions and music selected by the algorithm, which can be modified to the user's liking. The "People" album organizes photos by the people in them, and Places shows all photos on a world map.
+
+#### Safari and Apple Pay
+
+Safari provides an "extension point" which enables developers to bundle Safari extensions within their Cocoa applications and communicate with them directly from the applications. Safari conceals the presence of installed "legacy" plug-ins, such as Adobe Flash Player, Java applets, Microsoft Silverlight, and QuickTime – from websites and requires the user to enable a specific plug-in on a per-use or per-website basis.
+
+Apple Pay allows vendors to embed an Apple Pay button on their websites. In Safari, users can click the Apple Pay button to check out, then complete a purchase using an iPhone or Apple Watch. Apple Pay requires a Mac that supports Continuity (2012 or later models) and either an iPhone 6 or later with iOS 10, or an Apple Watch with watchOS 3.
+
+#### Messages
+
+The Messages app adds aesthetic effects to messages, such as three times bigger emojis and click back with hearts or thumbs-up on a message bubble. The ability to play YouTube videos and preview links in a conversation was introduced. Users can view interactive content added to iMessage in iOS 10. The app also allows you to turn on or off read receipts on a conversation by conversation basis.
+
+#### iTunes
+
+Apple Music within iTunes has been redesigned, making it simpler to find favorite songs and discover new ones. A new "For You" tab has been added, which suggests new music the user might like (similar to the existing Genius). A refined MiniPlayer with the ability to view lyrics while listening has also been introduced.
+
+#### Notes
+
+The Notes app allows the user to share and collaborate on notes. This is done by clicking on a share button at the top of the window.
+
+### Other changes
+
+- [x] Disk Utility regains the ability to format and manage RAID sets, after it was removed in El Capitan.
+- [x] Finder has an option to show folders always at the top of the view hierarchy, for instance in list views.
+- [x] Mail adds a control to the top of email lists to quickly filter them, for instance, by read status or the presence of attachments.
+- [x] 13 & 15-inch Retina MacBook Pros now default to integer scaled over nearest-neighbor scaled resolutions to fit more content.
+
+### Other applications found on macOS 10.12 Sierra
+
+- [x] AirPort Utility
+- [x] App Store
+- [x] Archive Utility
+- [x] Audio MIDI Setup
+- [x] Automator
+- [x] Bluetooth File Exchange
+- [x] Boot Camp Assistant
+- [x] Calculator
+- [x] Calendar
+- [x] Chess
+- [x] ColorSync Utility)
+- [x] Console
+- [x] Contacts
+- [x] Dictionary
+- [x] Digital Color Meter
+- [x] DVD Player
+- [x] FaceTime
+- [x] Font Book
+- [x] Game Center
+- [x] GarageBand (may not be pre-installed)
+- [x] Grab
+- [x] Grapher
+- [x] iBooks (now Apple Books)
+- [x] iMovie (may not be pre-installed)
+- [x] iTunes
+- [x] Image Capture
+- [x] Ink (can only be accessed by connecting a graphics tablet to your Mac)
+- [x] Keychain Access
+- [x] Keynote (may not be pre-installed)
+- [x] Migration Assistant
+- [x] Numbers (may not be pre-installed)
+- [x] Pages (may not be pre-installed)
+- [x] Photo Booth
+- [x] Preview
+- [x] QuickTime Player
+- [x] Reminders
+- [x] Script Editor
+- [x] Stickies
+- [x] System Information
+- [x] Terminal
+- [x] TextEdit
+- [x] Time Machine
+- [x] VoiceOver Utility
+- [x] X11/XQuartz (may not be pre-installed)
+
+### Security improvements
+
+#### Gatekeeper
+
+macOS Sierra slightly changes the Gatekeeper user interface and adds two new mechanisms. A new default in System Preferences hides the "Anywhere" option which allows the user to disable the mechanism and execute programs from any source without needing to approve each new one individually.
+
+The first new mechanism allows developers to code-sign disk images that can be verified as a unit by the system. This allows developers to guarantee the integrity of external files that are distributed alongside the application bundle on the same disk image. An attacker could infect these external files with malicious code and with them exploit a vulnerability in the application, without having to break the signature of the application bundle itself. By signing the disk image, the developer can prevent tampering and force an attacker to repackage the files onto a new disk image, requiring a valid developer certificate to pass Gatekeeper without a warning.[26]
+
+The second new mechanism is "path randomization", which executes application bundles from a random, hidden path and prevents them from accessing external files relative to their location. To avoid this, the developer has to distribute the application bundle and its external files on a signed disk image or in a signed installer package. The user can avoid this mechanism by moving the application bundle without its external files to a new location.[
+
+#### Directory permissions and sudo
+
+The Unix permissions for writing to the /Volumes directory are now restricted to root and no longer "world-writable". Apple expanded System Integrity Protection to /Library/Application Support/com.apple.TCC, a directory that contains a list of applications that are allowed to "control the computer", and restricts write access to programs which were signed with an Apple "private entitlement". The file-hosting service Dropbox has been criticized for manipulating the directory to add their Dropbox application to the list, rather than asking the user to do it for them explicitly in System Preferences.
+
+The sudo command-line utility with which a user can execute a command as another user, typically as root, is configured with the "tty_tickets" flag by default, restricting the session timeout to the terminal session (such as a window or tab) in which the user authenticated the program.
+
+### Removed functionality
+
+Sierra removes support for garbage collection from the Objective-C runtime, a memory-management system that was added in Mac OS X Leopard (version 10.5) and declared deprecated in favor of Automatic Reference Counting in OS X Mountain Lion (version 10.8). Applications that have been compiled with garbage collection will no longer run.
+
+Apple removed native support for the VPN protocol PPTP and made recommendations for alternatives that it considers more secure.
+
+The "time remaining" estimate has been removed in the 10.12.2 update after complaints of the battery life of 2016 MacBook Pros.
+
+The Game Center app has been removed. However, the service still exists.
+
+### Reinstallation
+
+Following the download of macOS Sierra (10.12) from the Mac App Store, the installer does not show under a users' "Purchased" tab in the Mac App Store app. Users can still re-download the Sierra installer by visiting the macOS Sierra page on the Mac App Store.
+
+### Boot screen
+
+The `Happy Wac` is disabled by default on boot to match the release (starting with Wac OS X 10.2) and on boot, the letter `W` will show. By default, on the first install, it will go with the brand logo (The W logo with a big cat texture) then it will be the `Modern1` logo (The W logo with a metal texture) This can be changed in [`WACOS_10-12-BOOTCONFIG.cfg`](/10.12/WACOS_10-12-BOOTCONFIG.cfg)
+
+### File system
+
+OpenAPFS is now the default fils system (starting with WacOS 10.12)
+
+OpenHFS+ 2.0 is still a file system option, along with OpenZFS, which is still in read-only mode.
+
+### Codecs
+
+No new codecs are supported in this release.
+
+### Applications found on Mac OS X 10.4
+
+- [ ] Address Book
+- [ ] AppleScript
+- [ ] Calculator
+- [ ] Chess
+- [ ] Clock
+- [ ] CPU Monitor
+- [ ] DVD Player
+- [ ] Image Capture
+- [ ] iMovie
+- [ ] Internet Connect
+- [ ] iTunes
+- [ ] Mail
+- [ ] Preview
+- [ ] Activity Monitor
+- [ ] QuickTime Player
+- [ ] Sherlock
+- [ ] Stickies
+- [ ] System Preferences
+- [ ] StuffIt Expander
+- [ ] TextEdit
+- [ ] Terminal
+- [ ] Font Book
+- [ ] FileVault
+- [ ] iChat AV
+- [ ] X11
+- [ ] Safari
+- [ ] Dashboard
+- [ ] Automator
+- [ ] Grapher
+- [ ] Dictionary
+- [ ] Quartz Composer
+- [ ] AU Lab
+- [ ] Bootcamp
+- [ ] Back to my mac
+- [ ] App Store
+
+To add to this list:
+
+```
+AirPort Utility
+App Store
+Archive Utility
+Audio MIDI Setup
+Automator
+Bluetooth File Exchange
+Boot Camp Assistant
+Calculator
+ColorSync Utility)
+Console
+Contacts
+Dictionary
+Digital Color Meter
+Disk Utility
+DVD Player
+FaceTime
+Font Book
+GarageBand (may not be pre-installed)
+Grab
+Grapher
+iMovie (may not be pre-installed)
+iTunes
+Image Capture
+Keychain Access
+Keynote (may not be pre-installed)
+Messages
+Migration Assistant
+Notes
+Notification Center
+Numbers (may not be pre-installed)
+Pages (may not be pre-installed)
+Photo Booth
+QuickTime Player
+Script Editor
+Stickies
+System Information
+Terminal
+TextEdit
+VoiceOver Utility
+```
+
+## Feature translation notes
+
+The exact system requirements are not a forced emulation option. The WacOS system is designed to be lighter, but you can adjust it to match MacOS.
+
+WacOS equivalents of programs are included.
+
+Malicious methods (such as DRM/TPM) are NEVER included with WacOS, not even as an open source recreation.
+
+Please [raise an issue](https://github.com/seanpm2001/WacOS/issues/) if any other clarification is needed.
+
+## Home repositories
+
+[Guesthouse repository](https://github.com/seanpm2001/WacOS_10.12/)
+
+This is a guesthouse repository, and not a home repository, as development mainly stays on the main WacOS side. This is just the guesthouse that the project retreats to at times. If you are already in this repository, the link is likely recursive, and will reload the page.
+
+[Home repository](https://github.com/seanpm2001/WacOS/tree/WacOS-dev/WacOS_X/10.12/)
+
+This is the home repository. If you are already in this repository, the link is likely recursive, and will reload the page.
 
 ***
 
-## Read this article in a different language
+## File info
 
-**Sorted by:** `A-Z`
+**File type:** `Markdown document (*.md *.mkd *.mdown *.markdown)`
 
-[Sorting options unavailable](https://github.com/<developerName>/<repoName>)
+**File version:** `1 (2022, Tuesday, June 7th at 10:53 pm PST)`
 
-( [af Afrikaans](/.github/README_AF.md) Afrikaans | [sq Shqiptare](/.github/README_SQ.md) Albanian | [am አማርኛ](/.github/README_AM.md) Amharic | [ar عربى](/.github/README_AR.md) Arabic | [hy հայերեն](/.github/README_HY.md) Armenian | [az Azərbaycan dili](/.github/README_AZ.md) Azerbaijani | [eu Euskara](/.github/README_EU.md) Basque | [be Беларуская](/.github/README_BE.md) Belarusian | [bn বাংলা](/.github/README_BN.md) Bengali | [bs Bosanski](/.github/README_BS.md) Bosnian | [bg български](/.github/README_BG.md) Bulgarian | [ca Català](/.github/README_CA.md) Catalan | [ceb Sugbuanon](/.github/README_CEB.md) Cebuano | [ny Chichewa](/.github/README_NY.md) Chichewa | [zh-CN 简体中文](/.github/README_ZH-CN.md) Chinese (Simplified) | [zh-t 中國傳統的）](/.github/README_ZH-T.md) Chinese (Traditional) | [co Corsu](/.github/README_CO.md) Corsican | [hr Hrvatski](/.github/README_HR.md) Croatian | [cs čeština](/.github/README_CS.md) Czech | [da dansk](README_DA.md) Danish | [nl Nederlands](/.github/README_NL.md) Dutch | [**en-us English**](/.github/README.md) English |  [EO Esperanto](/.github/README_EO.md) Esperanto | [et Eestlane](/.github/README_ET.md) Estonian | [tl Pilipino](/.github/README_TL.md) Filipino | [fi Suomalainen](/.github/README_FI.md) Finnish |  [fr français](/.github/README_FR.md) French | [fy Frysk](/.github/README_FY.md) Frisian | [gl Galego](/.github/README_GL.md) Galician | [ka ქართველი](/.github/README_KA) Georgian | [de Deutsch](/.github/README_DE.md) German | [el Ελληνικά](/.github/README_EL.md) Greek | [gu ગુજરાતી](/.github/README_GU.md) Gujarati | [ht Kreyòl ayisyen](/.github/README_HT.md) Haitian Creole | [ha Hausa](/.github/README_HA.md) Hausa | [haw Ōlelo Hawaiʻi](/.github/README_HAW.md) Hawaiian | [he עִברִית](/.github/README_HE.md) Hebrew | [hi हिन्दी](/.github/README_HI.md) Hindi | [hmn Hmong](/.github/README_HMN.md) Hmong | [hu Magyar](/.github/README_HU.md) Hungarian | [is Íslenska](/.github/README_IS.md) Icelandic | [ig Igbo](/.github/README_IG.md) Igbo | [id bahasa Indonesia](/.github/README_ID.md) Icelandic | [ga Gaeilge](/.github/README_GA.md) Irish | [it Italiana/Italiano](/.github/README_IT.md) | [ja 日本語](/.github/README_JA.md) Japanese | [jw Wong jawa](/.github/README_JW.md) Javanese | [kn ಕನ್ನಡ](/.github/README_KN.md) Kannada | [kk Қазақ](/.github/README_KK.md) Kazakh | [km ខ្មែរ](/.github/README_KM.md) Khmer | [rw Kinyarwanda](/.github/README_RW.md) Kinyarwanda | [ko-south 韓國語](/.github/README_KO_SOUTH.md) Korean (South) | [ko-north 문화어](README_KO_NORTH.md) Korean (North) (NOT YET TRANSLATED) | [ku Kurdî](/.github/README_KU.md) Kurdish (Kurmanji) | [ky Кыргызча](/.github/README_KY.md) Kyrgyz | [lo ລາວ](/.github/README_LO.md) Lao | [la Latine](/.github/README_LA.md) Latin | [lt Lietuvis](/.github/README_LT.md) Lithuanian | [lb Lëtzebuergesch](/.github/README_LB.md) Luxembourgish | [mk Македонски](/.github/README_MK.md) Macedonian | [mg Malagasy](/.github/README_MG.md) Malagasy | [ms Bahasa Melayu](/.github/README_MS.md) Malay | [ml മലയാളം](/.github/README_ML.md) Malayalam | [mt Malti](/.github/README_MT.md) Maltese | [mi Maori](/.github/README_MI.md) Maori | [mr मराठी](/.github/README_MR.md) Marathi | [mn Монгол](/.github/README_MN.md) Mongolian | [my မြန်မာ](/.github/README_MY.md) Myanmar (Burmese) | [ne नेपाली](/.github/README_NE.md) Nepali | [no norsk](/.github/README_NO.md) Norwegian | [or ଓଡିଆ (ଓଡିଆ)](/.github/README_OR.md) Odia (Oriya) | [ps پښتو](/.github/README_PS.md) Pashto | [fa فارسی](/.github/README_FA.md) |Persian  [pl polski](/.github/README_PL.md) Polish | [pt português](/.github/README_PT.md) Portuguese | [pa ਪੰਜਾਬੀ](/.github/README_PA.md) Punjabi | No languages available that start with the letter Q | [ro Română](/.github/README_RO.md) Romanian | [ru русский](/.github/README_RU.md) Russian | [sm Faasamoa](/.github/README_SM.md) Samoan | [gd Gàidhlig na h-Alba](/.github/README_GD.md) Scots Gaelic | [sr Српски](/.github/README_SR.md) Serbian | [st Sesotho](/.github/README_ST.md) Sesotho | [sn Shona](/.github/README_SN.md) Shona | [sd سنڌي](/.github/README_SD.md) Sindhi | [si සිංහල](/.github/README_SI.md) Sinhala | [sk Slovák](/.github/README_SK.md) Slovak | [sl Slovenščina](/.github/README_SL.md) Slovenian | [so Soomaali](/.github/README_SO.md) Somali | [[es en español](/.github/README_ES.md) Spanish | [su Sundanis](/.github/README_SU.md) Sundanese | [sw Kiswahili](/.github/README_SW.md) Swahili | [sv Svenska](/.github/README_SV.md) Swedish | [tg Тоҷикӣ](/.github/README_TG.md) Tajik | [ta தமிழ்](/.github/README_TA.md) Tamil | [tt Татар](/.github/README_TT.md) Tatar | [te తెలుగు](/.github/README_TE.md) Telugu | [th ไทย](/.github/README_TH.md) Thai | [tr Türk](/.github/README_TR.md) Turkish | [tk Türkmenler](/.github/README_TK.md) Turkmen | [uk Український](/.github/README_UK.md) Ukrainian | [ur اردو](/.github/README_UR.md) Urdu | [ug ئۇيغۇر](/.github/README_UG.md) Uyghur | [uz O'zbek](/.github/README_UZ.md) Uzbek | [vi Tiếng Việt](/.github/README_VI.md) Vietnamese | [cy Cymraeg](/.github/README_CY.md) Welsh | [xh isiXhosa](/.github/README_XH.md) Xhosa | [yi יידיש](/.github/README_YI.md) Yiddish | [yo Yoruba](/.github/README_YO.md) Yoruba | [zu Zulu](/.github/README_ZU.md) Zulu ) Available in 110 languages (108 when not counting English and North Korean, as North Korean has not been translated yet [Read about it here](/OldVersions/Korean(North)/README.md))
+**Line count (including blank lines and compiler line):** `320`
 
-Translations in languages other than English are machine translated and are not yet accurate. No errors have been fixed yet as of March 21st 2021. Please report translation errors [here](https://github.com/<developerName>/<repoName>/issues/). Make sure to backup your correction with sources and guide me, as I don't know languages other than English well (I plan on getting a translator eventually) please cite [wiktionary](https://en.wiktionary.org) and other sources in your report. Failing to do so will result in a rejection of the correction being published.
-
-Note: due to limitations with GitHub's interpretation of markdown (and pretty much every other web-based interpretation of markdown) clicking these links will redirect you to a separate file on a separate page that isn't the intended page. You will be redirected to the [.github folder](/.github/) of this project, where the README translations are hosted.
-
-Translations are currently done with Bing translate and DeepL. Support for Google Translate translations is coming to a close due to privacy concerns.
-
-***
-
-# Index
-
-[00.0 - Top](#Top)
-
-> [00.1 - Title](#<projectName>)
-
-> [00.2 - Read this article in a different language](#Read-this-article-in-a-different-language)
-
-> [00.3 - Index](#Index)
-
-[01.0 - Description](#RepositoryName)
-
-[02.0 - About](#About)
-
-[03.0 - Wiki](#Wiki)
-
-[04.0 - History](#History)
-
-> [04.1 - Pre-history](#Pre-history)
-
-> [04.2 - Alpha History](#Alpha-history)
-
-> [04.3 - Beta History](#Beta-history)
-
-> [04.4 - Modern History](#Modern-history)
-
-[05.0 - Copying](#Copying)
-
-[06.0 - Credits](#Credits)
-
-[07.0 - Installation](#Installation)
-
-[08.0 - Version history](#Version-history)
-
-[09.0 - Version history](#Version-history)
-
-[10.0 - Software status](#Software-status)
-
-[11.0 - Sponsor info](#Sponsor-info)
-
-[12.0 - Contributers](#Contributers)
-
-[13.0 - Issues](#Issues)
-
-> [13.1 - Current issues](#Current-issues)
-
-> [13.2 - Past issues](#Past-issues)
-
-> [13.3 - Past pull requests](#Past-pull-requests)
-
-> [13.4 - Active pull requests](#Active-pull-requests)
-
-[14.0 - Resources](#Resources)
-
-[15.0 - Contributing](#Contributing)
-
-[16.0 - About README](#About-README)
-
-[17.0 - README Version history](#README-version-history)
-
-[18.0 - Footer](#You-have-reached-the-end-of-the-README-file)
-
-> [18.9 - End of file](#EOF)
-
-***
-
-# <repoName>
-<repo_description>
-
-***
-
-## About
-
-See above. <extendedRepoDescription>
-
-***
-
-## Wiki
-
-[Click/tap here to view this projects Wiki](https://github.com/<developerName>/<repoName>/wiki)
-
-If the project has been forked, the Wiki was likely removed. Luckily, I include an embedded version. You can view it [here](/External/ProjectWiki/).
-
-***
-
-## History
-
-Write about this projects history here.
-
-### Pre-history
-
-No pre-history to show for this project.
-
-### Alpha history
-
-No Alpha history to show for this project.
-
-### Beta history
-
-No Beta history to show for this project.
-
-### Modern history
-
-No Modern history to show for this project.
-
-***
-
-## Copying
-
-View the copying license for this project [here](/COPYING) (if you haven't built the project yet with the makefile, here is the original link: [COPYINGL](/COPYINGL)
-
-Please note that you also have to follow the rules of the GNU General Public License v3 (GPL3) which you can view [here](/LICENSE.txt)
-
-***
-
-## Credits
-
-View the credits file for this project and see the people who got together to make this project by [clicking/tapping here](/CREDITS)
-
-***
-
-## Installation
-
-View the installation instructions file for this project [here](/INSTALL)
-
-Requirements: Read the instructions for more info, and get the latest up-to-date instructions [here](https://gist.github.com/seanpm2001/745564a46186888e829fdeb9cda584de)
-
-***
-
-## Sponsor info
-
-![SponsorButton.png](/SponsorButton.png)
-
-You can sponsor this project if you like, but please specify what you want to donate to. [See the funds you can donate to here](https://github.com/seanpm2001/Sponsor-info/tree/main/For-sponsors/)
-
-You can view other sponsor info [here](https://github.com/seanpm2001/Sponsor-info/)
-
-Try it out! The sponsor button is right up next to the watch/unwatch button.
-
-***
-
-## Version history
-
-**Version history currently unavailable**
-
-**No other versions listed**
-
-***
-
-## Software status
-
-All of my works are free some restrictions. DRM (**D**igital **R**estrictions **M**anagement) is not present in any of my works.
-
-![DRM-free_label.en.svg](/DRM-free_label.en.svg)
-
-This sticker is supported by the Free Software Foundation. I never intend to include DRM in my works.
-
-I am using the abbreviation "Digital Restrictions Management" instead of the more known "Digital Rights Management" as the common way of addressing it is false, there are no rights with DRM. The spelling "Digital Restrictions Management" is more accurate, and is supported by [Richard M. Stallman (RMS)](https://en.wikipedia.org/wiki/Richard_Stallman) and the [Free Software Foundation (FSF)](https://en.wikipedia.org/wiki/Free_Software_Foundation)
-
-This section is used to raise awareness for the problems with DRM, and also to protest it. DRM is defective by design and is a major threat to all computer users and software freedom.
-
-Image credit: [defectivebydesign.org/drm-free/...](https://www.defectivebydesign.org/drm-free/how-to-use-label/)
-
-***
-
-## Contributers
-
-Currently, I am the only contributer. Contributing is allowed, as long as you follow the rules of the [CONTRIBUTING.md](/CONTRIBUTING.md) file.
-
-> * 1. [seanpm2001](https://github.com/seanpm2001/) - x commits (As of Yr, DoW, Month, DoM, at ##:## a/pm)
-
-> * 2. No other contributers.
-
-***
-
-## Issues
-
-### Current issues
-
-* None at the moment
-
-* No other current issues
-
-If the repository has been forked, issues likely have been removed. Luckily I keep an archive of certain images [here](/.github/Issues/)
-
-[Read the privacy policy on issue archival here](/.github/Issues/README.md)
-
-**TL;DR**
-
-I archive my own issues. Your issue won't be archived unless you request it to be archived.
-
-### Past issues
-
-* None at the moment
-
-* No other past issues
-
-If the repository has been forked, issues likely have been removed. Luckily I keep an archive of certain images [here](/.github/Issues/)
-
-[Read the privacy policy on issue archival here](/.github/Issues/README.md)
-
-**TL;DR**
-
-I archive my own issues. Your issue won't be archived unless you request it to be archived.
-
-### Past pull requests
-
-* None at the moment
-
-* No other past pull requests
-
-If the repository has been forked, issues likely have been removed. Luckily I keep an archive of certain images [here](/.github/Issues/)
-
-[Read the privacy policy on issue archival here](/.github/Issues/README.md)
-
-**TL;DR**
-
-I archive my own issues. Your issue won't be archived unless you request it to be archived.
-
-### Active pull requests
-
-* None at the moment
-
-* No other active pull requests
-
-If the repository has been forked, issues likely have been removed. Luckily I keep an archive of certain images [here](/.github/Issues/)
-
-[Read the privacy policy on issue archival here](/.github/Issues/README.md)
-
-**TL;DR**
-
-I archive my own issues. Your issue won't be archived unless you request it to be archived.
-
-***
-
-## Resources
-
-Here are some other resources for this project:
-
-[Project language file A](PROJECT_LANG_1.<fileExtensionForProgrammingLanguage>)
-
-[Join the discussion on GitHub](https://github.com/<developerName>/<repoName>/discussions)
-
-No other resources at the moment.
-
-***
-
-## Contributing
-
-Contributing is allowed for this project, as long as you follow the rules of the `CONTRIBUTING.md` file.
-
-[Click/tap here to view the contributing rules for this project](/CONTRIBUTING.md)
-
-***
-
-## About README
-
-**File type:** `Markdown Document (*.md *.mkd *.markdown)`
-
-**File version:** `0.1.6 (Monday, August 23rd 2021 at 6:37 pm)`
-
-**Line count (including blank lines and compiler line):** `0,407`
-
-***
-
-## README version history
-
-Version 0.1 (Sunday, March 21st 2021 at 7:50 pm)
-
-> Changes:
-
-> * Started the file
-
-> * Added the title section
-
-> * Added the index
-
-> * Added the about section
-
-> * Added the Wiki section
-
-> * Added the version history section
-
-> * Added the issues section.
-
-> * Added the past issues section
-
-> * Added the past pull requests section
-
-> * Added the active pull requests section
-
-> * Added the contributors section
-
-> * Added the contributing section
-
-> * Added the about README section
-
-> * Added the README version history section
-
-> * Added the resources section
-
-> * Added a software status section, with a DRM free sticker and message
-
-> * Added the sponsor info section
-
-**ITERATION 5**
-
-> * Updated the title section
-
-> * Updated the index
-
-> * Added the history section
-
-> * Updated the file info section
-
-> * Updated the file history section
-
-**ITERATION 6**
-
-> * Updated the title section
-
-> * Fixed and update template links
-
-> * Updated the index
-
-> * Added the copying section
-
-> * Added the credits section
-
-> * Added the installation section
-
-> * Updated the resources section
-
-> * Updated the contributors section
-
-> * Added the technical notes section
-
-> * Updated the footer
-
-> * Updated the file info section
-
-> * Updated the file history section
-
-> * No other changes in version 0.1
-
-Version 1 (Coming soon)
-
-> Changes:
-
-> * Coming soon
-
-> * No other changes in version 1
-
-Version 2 (Coming soon)
-
-> Changes:
-
-> * Coming soon
-
-> * No other changes in version 2
-
-***
-
-### You have reached the end of the README file
-
-( [Back to top](#Top) | [Exit to GitHub](https://github.com) | [Exit to Bing](https://www.bing.com/) | [Exit to DuckDuckGo](https://duckduckgo.com/) | [Exit to Ecosia](https://www.ecosia.org) )
-
-### EOF
+**Current article language:** `English (USA)`
 
 ***
